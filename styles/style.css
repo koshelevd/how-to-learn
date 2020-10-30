@@ -3,20 +3,27 @@
   max-width: 1600px;
   margin: 0 auto;
   font-family: 'Helvetica Neue', Arial, sans-serif;
+  color: 0;
 }
 
 /********************************************************* LOGO *********************************************************/
 .logo {
   width: 183px;
-  height: 32px;
+
   z-index: 4;
 }
 
 .logo_place_header {
   position: absolute;
+  height: 32px;
   left: 64px;
   top: 30px;
   background-image: url(../images/logo_place_header.svg);  
+}
+
+.logo_place_footer {
+  height: 35px;
+  background-image: url(../images/logo_place_footer.svg);  
 }
 
 /******************************************************** HEADER ********************************************************/
@@ -95,6 +102,7 @@
   margin: 0;
   line-height: 1.2;
   font-size: 18px;
+  font-weight: normal;;
 
 }
 
@@ -137,6 +145,10 @@
   margin: 0;
 }
 
+.section-title_theme_dark {
+  width: 60%
+}
+
 .page_margin-bottom_small {
   margin-bottom: 20px;
 }
@@ -150,6 +162,10 @@
   margin: 0;
 }
 
+.section-subtitle_theme_dark {
+  width: 60%
+}
+
 .table {
   border: 1px dotted red;
   width: 1100px;
@@ -161,12 +177,32 @@
   justify-content: space-between;
 }
 
+.table_theme_dark {
+  z-index: 1;
+}
+
 .table__cell {
   border: 1px dotted red;
-  padding-top: 60px;
+  margin-top: 60px;
   width: 250px;
-  margin: 0;
+  //margin: 0;
 }
+
+.table__cell_theme_dark {
+  width: 200px;
+  margin-right: 0;
+  margin-top: 80px;
+}
+
+/* и элемента с модификатором вида ключ-значение */
+/*
+.table__cell_theme_dark {
+  width: 200px;
+  color: white;
+  margin-right: 0;
+  margin-top: 80px;
+}
+*/
 
 .table__heading {
   line-height: 1.15;
@@ -175,10 +211,18 @@
   margin: 0;
 }
 
+.table__heading_theme_dark {
+
+}
+
 .table__text {
   line-height: 1.2;
   font-size: 18px;
   margin: 20px 0 0 0;
+}
+
+.table__text_theme_dark {
+
 }
 
 /******************************************************** FEYNMAN ********************************************************/
@@ -233,10 +277,77 @@
   bottom: 0;
 }
 
-/* и элемента с модификатором вида ключ-значение */
-.table__cell_theme_dark {
-  width: 200px;
-  color: white;
-  margin-right: 0;
-  margin-top: 80px;
+/******************************************************** KAUFMAN ********************************************************/
+.kaufman {
+  border: 1px solid red;
+  background-color: #1f1f1f;
+  overflow: hidden;
+  padding: 90px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  color: #fff;
+  z-index: -1;
+}
+
+.kaufman__triangle {
+  background-image: url(../images/kaufman-triangle.svg);
+  position: absolute;
+  right: -210px;
+  top: 0;
+  width: 877px;
+  height: 877px;
+
+}
+
+/******************************************************** FOOTER ********************************************************/
+.footer {
+  border: 1px solid red;
+  background-color: #1f1f1f;
+  padding: 60px 0 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer__columns {
+  border: 1px dotted red;
+  min-height: 250px;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__column {
+  border: 1px dotted red;
+}
+
+.footer__column_content_copyright {
+  flex-basis: 711px;
+}
+
+.footer__column_content_info {
+
+}
+
+.footer__column_content_social {
+
+}
+
+.footer__author {
+
+}
+
+.footer__column-heading {
+
+}
+
+.footer__column-links {
+
+}
+
+.footer__social-icons {
+
 }
