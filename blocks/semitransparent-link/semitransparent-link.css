@@ -1,0 +1,7 @@
+.semitransparent-link {
+  transition: opacity .6s ease-in;
+}
+
+.semitransparent-link:hover {
+  opacity: .7;
+}
