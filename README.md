@@ -1,9 +1,10 @@
-# Спринт 2. Проектная работа.
-## Вторая проектная работа на курсе Яндекс.Практикума "Веб-разработчик"
+# Project "Study to learn"
 
+Landing page about modern approaches and teaching methods. Second project
+work on the learning course Yandex.Praktikum "Web developer"
 
-Одностраничный лендинг о современных подходах и методиках обучения.
-
-Работа выполнена с использованием *HTML5* и *CSS3*, технологии *flexbox*.
-Применена технология БЭМ. Файлы организованы в соответствии с Nested BEM.
-
+The work was done using **HTML5**, **CSS3**, **Javascript**.
+The layout is adaptive, responsive, **flexbox** and **grid layout**
+technologies are used.
+**BEM** technology is applied. The files are organized according to **Nested
+BEM**.
