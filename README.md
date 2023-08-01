@@ -1,7 +1,6 @@
 # Project "How to learn"
 
-Landing page about modern approaches and teaching methods. Second project
-work on the learning course Yandex.Praktikum "Web developer"
+Landing page about modern approaches and teaching methods.
 
 The work was done using **HTML5**, **CSS3**, **flexbox**.
 Files are organized according to **Nested BEM**.
